@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Shopping</title>
+<link rel="shortcut icon" type="image/x-icon" href="../images/star2.png"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/cssvol1.css">
+</head>
+<body>
+  <header id="main">
+    <h1 id="h1hmain"><a href="./main.html">Web Shopping</a></h1>
+  </header>
+  
+  <nav id="navmain">
+    <ul id="ulnmain">
+      <li class="linmain"><a href="#">HOME</a></li>
+      <li class="mL"><a href="#">SHOPPING ABOUT</a></li>
+      <li class="linmain"><a href="#">NEWS</a></li>
+      <li class="mL"><a href="#">MY ACCOUNT</a></li>
+      <li class="linmain"><a href="#">CONTACT</a></li>
+      <div id="navli"></div>
+    </ul>
+  </nav>
+  
+  <aside id="left">
+    <ul id="ulalmain">
+      <h1 id="h1almain">CATEGORY</h1>
+      <li class="cL"><a href="computer.html" target="ifr">컴퓨터</a></li>
+      <li class="cL"><a href="clothes.html" target="ifr">의류</a></li>
+      <li class="cL"><a href="music.html" target="ifr">음악</a></li>
+      <li class="cL"><a href="movie.html" target="ifr">영화</a></li>
+      <li class="cL"><a href="sports.html" target="ifr">스포츠/레저</a></li>
+      <li class="cL"><a href="furniture.html" target="ifr">가구/인테리어</a></li>
+      <li class="cL"><a href="food.html" target="ifr">식품</a></li>
+    </ul>
+  </aside>
+
+  <section id="secmain">
+    <article id="artsecmain">
+    	<iframe id="ifsartsec" src="computer.html" name="ifr" frameborder="0"></iframe>
+    </article>
+  </section>
+  
+
+  <aside id="right">
+    <div class="px"></div>
+    <h1 class="h1armain">Shopping Cart</h1>
+    
+	  <div class="divarmain">
+	  <p>현재 쇼핑카트에 물품이 없습니다.</p>
+	  <a href="./cart.html" target="ifr">쇼핑카트 보기</a>
+	  </div>
+	  
+    <div id="px2">
+	    <h1 class="h1armain">Log In</h1>
+	    
+		  <form id="formarmain">
+		   <p class="parmain">아이디</p>
+		     <input class="inputarmain" type="text">
+		   <p class="parmain">패스워드</p>
+		     <input class="inputarmain" type="text"><br>
+		     <input type="button" value="로그인">
+		     <input type="reset" value="초기화"><br><br>
+		   <a href="./join.html" target="ifr">회원가입</a>
+		   <a href="#">비밀번호 분실</a>
+	  	  </form>
+	  	  
+	 </div>
+  </aside>
+
+  <footer id="mainfooter"><p id="footerp">2021.07.12    대덕인재개발원</p>
+  </footer>
+
+</body>
+</html>
